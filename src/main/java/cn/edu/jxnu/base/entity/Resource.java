@@ -20,10 +20,6 @@ import lombok.EqualsAndHashCode;
 
 /**
  * 资源表
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:41:19.
- * @version V1.0
  */
 @Entity
 @Table(name = "tb_resource")

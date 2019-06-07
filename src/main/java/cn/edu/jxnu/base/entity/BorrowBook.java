@@ -14,10 +14,6 @@ import lombok.EqualsAndHashCode;
 
 /**
  * 借书表
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:39:29.
- * @version V1.0
  */
 @IdClass(BorrowBook.class) // 复合主键（user_id，book_id）
 @Embeddable // 表示此类可被插入到其他类

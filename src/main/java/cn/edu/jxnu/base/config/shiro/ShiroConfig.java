@@ -21,10 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * Shiro配置
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:09:21.
- * @version V1.0
+
  */
 @Configuration
 @Import(ShiroManager.class)
@@ -33,12 +30,6 @@ public class ShiroConfig {
 	
 	/**
 	 * 注入MyRealm
-	 * 
-	 * @time 2018年4月10日 下午5:09:33.
-	 * 
-	 * @version V1.0
-	 * @param cacheManager
-	 * @return Realm
 	 */
 	@Bean(name = "realm")
 	@DependsOn("lifecycleBeanPostProcessor")
@@ -51,12 +42,7 @@ public class ShiroConfig {
 
 	/**
 	 * 密码验证
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午9:22:11
-	 * @version V1.0
-	 * @param cacheManager
-	 * @return 自定义密码验证
+
 	 *
 	 */
 	@Bean("credentialsMatcher")
@@ -67,10 +53,7 @@ public class ShiroConfig {
 
 	/**
 	 * 用户授权信息Cache
-	 * 
-	 * @time 2018年4月10日 下午5:09:52.
-	 * @version V1.0
-	 * @return CacheManager
+
 	 */
 	@Bean(name = "shiroCacheManager")
 	@ConditionalOnMissingBean
@@ -80,11 +63,7 @@ public class ShiroConfig {
 
 	/**
 	 * 缓存用户密码
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午11:07:35
-	 * @version V1.0
-	 * @return ehCache缓存管理器
+
 	 *
 	 */
 	// @Bean(name = "ehCacheManager")
@@ -96,11 +75,7 @@ public class ShiroConfig {
 
 	/**
 	 * 授权管理器
-	 * 
-	 * @time 2018年4月10日 下午5:10:02.
-	 * 
-	 * @version V1.0
-	 * @return DefaultSecurityManager
+
 	 */
 	@Bean(name = "securityManager")
 	@ConditionalOnMissingBean
@@ -114,12 +89,7 @@ public class ShiroConfig {
 	/**
 	 * shiro拦截器
 	 * 
-	 * @time 2018年4月10日 下午5:10:12.
-	 * 
-	 * @version V1.0
-	 * @param securityManager
-	 * @param realm
-	 * @return ShiroFilterFactoryBean
+
 	 */
 	@Bean(name = "shiroFilter")
 	@DependsOn("securityManager")

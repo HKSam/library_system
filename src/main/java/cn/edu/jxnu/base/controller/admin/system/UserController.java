@@ -31,10 +31,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 用户管理控制类
- *
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:24:52.
- * @version V1.0
  */
 @Controller
 @Slf4j
@@ -60,10 +56,6 @@ public class UserController extends BaseController {
 
 	/**
 	 * 用户管理页面分页
-	 *
-	 * @time 2018年4月10日 下午5:25:02.
-	 * @version V1.0
-	 * @return Page<User>
 	 */
 	@RequestMapping(value = { "/list" })
 	@ResponseBody
@@ -80,11 +72,6 @@ public class UserController extends BaseController {
 
 	/**
 	 * 打开用户添加页面
-	 *
-	 * @time 2018年4月10日 下午5:25:20.
-	 * @version V1.0
-	 * @param map
-	 * @return String
 	 */
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public String add(ModelMap map) {
@@ -93,12 +80,7 @@ public class UserController extends BaseController {
 
 	/**
 	 * 打开用户修改页面
-	 *
-	 * @time 2018年4月10日 下午5:25:34.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @return String
+
 	 */
 	@RequestMapping(value = "/edit/{id}", method = RequestMethod.GET)
 	public String edit(@PathVariable Integer id, ModelMap map) {
@@ -110,14 +92,7 @@ public class UserController extends BaseController {
 
 	/**
 	 * 修改用户
-	 *
-	 * @time 2018年4月10日 下午5:25:54.
-	 * @version V1.0
-	 * @param user
-	 * @param map
-	 * @param uCode
-	 *            操作人
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = { "/edit" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -136,14 +111,6 @@ public class UserController extends BaseController {
 
 	/**
 	 * 删除用户
-	 *
-	 * @time 2018年4月10日 下午5:26:08.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @param uCode
-	 *            操作人
-	 * @return JsonResult
 	 */
 	@RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
 	@ResponseBody
@@ -172,12 +139,6 @@ public class UserController extends BaseController {
 
 	/**
 	 * 打开分配角色页面
-	 *
-	 * @time 2018年4月10日 下午5:26:23.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @return String
 	 */
 	@RequestMapping(value = "/grant/{id}", method = RequestMethod.GET)
 	public String grant(@PathVariable Integer id, ModelMap map) {
@@ -198,13 +159,6 @@ public class UserController extends BaseController {
 
 	/**
 	 * 分配角色
-	 *
-	 * @time 2018年4月10日 下午5:26:40.
-	 * @version V1.0
-	 * @param id
-	 * @param roleIds
-	 * @param map
-	 * @return JsonResult
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/grant/{id}", method = RequestMethod.POST)
@@ -220,11 +174,7 @@ public class UserController extends BaseController {
 
 	/**
 	 * 恢复账号
-	 *
-	 * @time 2018年4月10日 下午5:27:08.
-	 * @version V1.0
-	 * @param id
-	 * @return JsonResult
+
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/resume/{id}", method = RequestMethod.POST)
@@ -257,10 +207,6 @@ public class UserController extends BaseController {
 	/**
 	 * 验证用户名【学号】是否已经被注册
 	 *
-	 * @time 2018年4月10日 下午5:27:23.
-	 * @version V1.0
-	 * @param userCode
-	 * @return boolean
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/isExist", method = RequestMethod.GET)
@@ -278,11 +224,6 @@ public class UserController extends BaseController {
 
 	/**
 	 * 修改时，验证永真
-	 *
-	 * @time 2018年4月10日 下午5:27:33.
-	 * @version V1.0
-	 * @param userCode
-	 * @return boolean
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/isAllTrue", method = RequestMethod.GET)
@@ -292,11 +233,7 @@ public class UserController extends BaseController {
 
 	/**
 	 * 验证用户名【学号】是否已经被注册,代理前端的账户验证
-	 *
-	 * @time 2018年4月10日 下午5:27:45.
-	 * @version V1.0
-	 * @param userCode
-	 * @return boolean
+
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/isAvailable/{userCode}")

@@ -13,11 +13,7 @@ import cn.edu.jxnu.base.entity.Memorandum;
 import cn.edu.jxnu.base.service.IMemorandumService;
 
 
-/**
- * @author 梦境迷离.
- * @time 2018年5月1日
- * @version v1.0
- */
+
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)

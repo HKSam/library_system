@@ -8,10 +8,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * redis接收消息类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午8:27:46
- * @version V1.0
  */
 @Slf4j
 public class Receiver {

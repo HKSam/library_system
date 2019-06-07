@@ -11,10 +11,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 借阅服务实现类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:54:39.
- * @version V1.0
  */
 @Service
 @Slf4j

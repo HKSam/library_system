@@ -24,10 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 登录控制类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:18:19.
- * @version V1.0
+
  */
 @Controller
 @Slf4j
@@ -44,10 +41,7 @@ public class LoginController extends BaseController {
 
 	/**
 	 * 打开登陆表单
-	 * 
-	 * @time 2018年4月10日 下午5:18:37.
-	 * @version V1.0
-	 * @return String
+
 	 */
 	@RequestMapping(value = { "/admin/login" }, method = RequestMethod.GET)
 	public String login() {
@@ -56,15 +50,6 @@ public class LoginController extends BaseController {
 
 	/**
 	 * 登陆验证
-	 * 
-	 * 这个方法写的不好，不要这样用catch
-	 * 
-	 * @time 2018年4月10日 下午5:18:55.
-	 * @version V1.0
-	 * @param usercode
-	 * @param password
-	 * @param model
-	 * @return String
 	 */
 	@RequestMapping(value = { "/admin/login" }, method = RequestMethod.POST)
 	public String login(@RequestParam(value = "usercode", required = false) String usercode,
@@ -121,12 +106,6 @@ public class LoginController extends BaseController {
 
 	/**
 	 * 安全退出
-	 * 
-	 * @time 2018年4月10日 下午5:19:11.
-	 * @param uCode
-	 *            操作人
-	 * @version V1.0
-	 * @return String
 	 */
 	@RequestMapping(value = { "/admin/logout/{uCode}" }, method = RequestMethod.GET)
 	public String logout(@PathVariable("uCode") String uCode) {

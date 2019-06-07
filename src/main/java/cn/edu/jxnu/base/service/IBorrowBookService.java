@@ -2,12 +2,7 @@ package cn.edu.jxnu.base.service;
 
 import cn.edu.jxnu.base.entity.BorrowBook;
 
-/**
- * 
- * @author 借阅图书服务接口
- * @time 2018年4月10日 下午5:50:10.
- * @version V1.0
- */
+
 public interface IBorrowBookService extends IBaseService<BorrowBook, String> {
 
 	/**

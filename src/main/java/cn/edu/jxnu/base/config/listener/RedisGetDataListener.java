@@ -18,10 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * redis初始化数据
- * 
- * @author 梦境迷离 
- * @time 2018年4月11日10:13:08
- * @version V1.0
  *
  */
 
@@ -34,15 +30,7 @@ public class RedisGetDataListener implements ServletContextListener {
 	@Autowired
 	private IBorrowBookService borrowBookService;
 
-	/**
-	 * 容器初始化
-	 * 
-	 * @author 梦境迷离 
-	 * @time 上午10:14:12
-	 * @version V1.0
-	 * @param sce
-	 *
-	 */
+
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 		log.info("开始初始化redis数据->base:0");
@@ -71,13 +59,6 @@ public class RedisGetDataListener implements ServletContextListener {
 		log.info("初始化redis数据完毕->base:0");
 	}
 
-	/**
-	 * @author 梦境迷离 
-	 * @time 上午10:14:12
-	 * @version V1.0
-	 * @param sce
-	 *
-	 */
 	@Override
 	public void contextDestroyed(ServletContextEvent sce) {
 

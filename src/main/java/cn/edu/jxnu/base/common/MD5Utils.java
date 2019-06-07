@@ -8,10 +8,7 @@ import org.springframework.util.StringUtils;
 
 /**
  * Md5加密
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:55:41.
- * @version V1.0
+
  */
 public class MD5Utils {
 	/**

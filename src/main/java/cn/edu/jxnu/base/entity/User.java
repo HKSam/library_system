@@ -30,10 +30,6 @@ import lombok.EqualsAndHashCode;
  * 一个是根据类名、接口名、成员方法及属性等来生成一个64位的哈希字段 注意：阿里电面问过序列化机制
  * 最后补充：序列化关键一点在于远程方法调用（RMI）中可以隐藏底层细节
  * </p>
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:41:51.
- * @version V1.0
  */
 @Entity
 @Table(name = "tb_user")

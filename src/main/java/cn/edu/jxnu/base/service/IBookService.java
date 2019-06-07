@@ -4,10 +4,6 @@ import cn.edu.jxnu.base.entity.Book;
 
 /**
  * 图书服务接口
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:49:34.
- * @version V1.0
  */
 public interface IBookService extends IBaseService<Book, String> {
 
@@ -46,10 +42,7 @@ public interface IBookService extends IBaseService<Book, String> {
 	/**
 	 * 保存或更新图书信息
 	 * 携带当前库存
-	 * 
-	 * @author 梦境迷离.
-	 * @time 2018年5月5日
-	 * @version v1.0
+
 	 * @param book
 	 * @param cInventory
 	 */

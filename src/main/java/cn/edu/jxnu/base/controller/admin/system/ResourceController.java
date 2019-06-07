@@ -22,10 +22,6 @@ import cn.edu.jxnu.base.service.specification.SpecificationOperator.Operator;
 
 /**
  * 系统资源控制类
- *
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:19:30.
- * @version V1.0
  */
 @Controller
 @RequestMapping("/admin/resource")
@@ -36,11 +32,6 @@ public class ResourceController extends BaseController {
 
 	/**
 	 * 资源树
-	 *
-	 * @time 2018年4月10日 下午5:19:48.
-	 * @version V1.0
-	 * @param resourceId
-	 * @return List 类型 ZtreeView
 	 */
 	@RequestMapping("/tree/{resourceId}")
 	@ResponseBody
@@ -50,11 +41,7 @@ public class ResourceController extends BaseController {
 	}
 
 	/**
-	 * 打开资源管理首页
-	 *
-	 * @time 2018年4月10日 下午5:20:08.
-	 * @version V1.0
-	 * @return String
+
 	 */
 	@RequestMapping("/index")
 	public String index() {
@@ -63,10 +50,7 @@ public class ResourceController extends BaseController {
 
 	/**
 	 * 资源管理分页
-	 *
-	 * @time 2018年4月10日 下午5:20:21.
-	 * @version V1.0
-	 * @return Page 类型 Resource
+
 	 */
 	@RequestMapping("/list")
 	@ResponseBody
@@ -82,11 +66,7 @@ public class ResourceController extends BaseController {
 
 	/**
 	 * 打开资源添加页面
-	 *
-	 * @time 2018年4月10日 下午5:20:38.
-	 * @version V1.0
-	 * @param map
-	 * @return String
+
 	 */
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public String add(ModelMap map) {
@@ -98,11 +78,7 @@ public class ResourceController extends BaseController {
 	/**
 	 * 打开资源修改页面
 	 *
-	 * @time 2018年4月10日 下午5:20:50.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @return String
+
 	 */
 	@RequestMapping(value = "/edit/{id}", method = RequestMethod.GET)
 	public String edit(@PathVariable Integer id, ModelMap map) {
@@ -116,12 +92,7 @@ public class ResourceController extends BaseController {
 
 	/**
 	 * 资源添加或修改
-	 *
-	 * @time 2018年4月10日 下午5:21:05.
-	 * @version V1.0
-	 * @param resource
-	 * @param map
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = { "/edit" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -137,12 +108,7 @@ public class ResourceController extends BaseController {
 
 	/**
 	 * 资源删除
-	 *
-	 * @time 2018年4月10日 下午5:21:27.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
 	@ResponseBody

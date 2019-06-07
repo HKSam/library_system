@@ -31,10 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 主页控制层，公共控制层，不需要权限
- *
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:14:11.
- * @version V1.0
+
  */
 @Controller
 @Slf4j
@@ -47,10 +44,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 登陆
-	 *
-	 * @time 2018年4月10日 下午5:14:23.
-	 * @version V1.0
-	 * @return String
 	 */
 	@RequestMapping(value = { "/admin/", "/admin/index" })
 	public String index() {
@@ -60,10 +53,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 首页查询
-	 *
-	 * @time 2018年4月10日 下午5:14:38.
-	 * @version V1.0
-	 * @return String
 	 */
 	@RequestMapping(value = { "/admin/welcome" })
 	public String welcome() {
@@ -72,14 +61,7 @@ public class AdminIndexController extends BaseController {
 	}
 
 	/**
-	 * 用户个人信息页面
-	 *
-	 * @time 2018年4月10日 下午5:15:22.
-	 * @version V1.0
-	 * @param map
-	 * @param response
-	 * @return String
-	 * @throws TimeoutException
+	 * 用户个人信息
 	 */
 	@RequestMapping(value = { "/admin/info" })
 	public String info(ModelMap map, HttpServletResponse response, Integer id) throws TimeoutException {
@@ -110,10 +92,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 用户已借阅书籍页面
-	 *
-	 * @time 2018年4月10日 下午5:15:43.
-	 * @version V1.0
-	 * @return String
 	 */
 	@RequestMapping(value = { "/admin/borrow" })
 	public String borrow() {
@@ -123,11 +101,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 注册，不能拦截
-	 *
-	 * @time 2018年4月10日 下午5:16:03.
-	 * @version V1.0
-	 * @param map
-	 * @return String
 	 */
 	@RequestMapping(value = { "/assets/regist" })
 	public String regist(ModelMap map) {
@@ -139,12 +112,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 登录页面的注册专用
-	 *
-	 * @time 2018年4月10日 下午5:16:27.
-	 * @version V1.0
-	 * @param user
-	 * @param map
-	 * @return JsonResult
 	 */
 	@RequestMapping(value = { "/assets/edit" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -160,14 +127,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 验证用户名【学号】是否已经被注册,委托给用户控制层
-	 *
-	 * @time 2018年4月10日 下午5:16:41.
-	 * @version V1.0
-	 * @param userCode
-	 * @param request
-	 * @param response
-	 * @throws ServletException
-	 * @throws IOException
 	 */
 	@RequestMapping(value = { "/assets/isAvailable" }, method = RequestMethod.GET)
 	public void isAvailableUse(String userCode, HttpServletRequest request, HttpServletResponse response)
@@ -178,14 +137,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 所有人均可修改的个人信息
-	 *
-	 * @time 2018年4月10日 下午5:16:55.
-	 * @version V1.0
-	 * @param user
-	 * @param map
-	 * @return JsonResult
-	 * @throws ServletException
-	 * @throws IOException
 	 */
 	@ResponseBody
 	@RequestMapping(value = { "/assets/update" }, method = RequestMethod.POST)
@@ -216,13 +167,6 @@ public class AdminIndexController extends BaseController {
 
 	/**
 	 * 查询用户已借阅的图书 每个人均可操作，不需要授权。超期不可自主归还
-	 *
-	 * @time 2018年4月10日 下午5:17:45.
-	 * @version V1.0
-	 * @param map
-	 * @param uCode
-	 *            操作人
-	 * @return Page 类型 BorrowBook
 	 */
 	@RequestMapping(value = { "/assets/borrowList" })
 	@ResponseBody

@@ -21,10 +21,6 @@ import lombok.EqualsAndHashCode;
 
 /**
  * 角色表
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:41:33.
- * @version V1.0
  */
 @Entity
 @Table(name = "tb_role")

@@ -22,10 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 独立的密码验证工具
- * 
- * @author 梦境迷离
- * @time 2018年4月10日
- * @version V1.0
+
  */
 @Slf4j
 @Component
@@ -94,13 +91,7 @@ public class RetryLimitHashedCredentialsMatcher extends HashedCredentialsMatcher
 		return matches;
 	}
 
-	/**
-	 * @author 梦境迷离
-	 * @time 下午9:06:18
-	 * @version V1.0
-	 * @return Cache
-	 *
-	 */
+
 	public Cache<String, AtomicInteger> getPasswordRetryCache() {
 		return passwordRetryCache;
 	}

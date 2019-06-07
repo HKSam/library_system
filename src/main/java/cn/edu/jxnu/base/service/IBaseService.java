@@ -10,10 +10,6 @@ import java.util.List;
 
 /**
  * 系统服务层基接口
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:54:59.
- * @version V1.0
  */
 public interface IBaseService<T, ID extends Serializable> {
 	public abstract T find(ID id);
@@ -52,12 +48,6 @@ public interface IBaseService<T, ID extends Serializable> {
 
 	/**
 	 * 返回list的全部分页查询
-	 * 
-	 * @time 2018年4月10日 下午5:55:13.
-	 * @version V1.0
-	 * @param spec
-	 * @param sort
-	 * @return List 泛型
 	 */
 	public List<T> findList(Specification<T> spec, Sort sort);// List<T>是ArrayList类的泛型等效类，该类使用大小可按需动态增加的数组实现IList<T>泛型接口
 }

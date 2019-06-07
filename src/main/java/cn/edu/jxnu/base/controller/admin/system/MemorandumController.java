@@ -21,10 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  *
  * 系统操作信息备忘录 控制类
- *
- * @author 梦境迷离.
- * @time 2018年5月1日
- * @version v1.0
+
  */
 
 @Slf4j
@@ -34,13 +31,7 @@ public class MemorandumController extends BaseController {
 	@Autowired
 	private IMemorandumService memorandumService;
 
-	/**
-	 * 打开备忘录首页
-	 *
-	 * @time 11点05分
-	 * @version V1.0
-	 * @return String
-	 */
+
 	@RequestMapping("/index")
 	public String index() {
 		return "admin/memorandum/index";
@@ -48,10 +39,7 @@ public class MemorandumController extends BaseController {
 
 	/**
 	 * 分页
-	 *
-	 * @time 11点04分
-	 * @version V1.0
-	 * @return Page 类型 Memorandum
+
 	 */
 	@RequestMapping("/list")
 	@ResponseBody
@@ -69,12 +57,7 @@ public class MemorandumController extends BaseController {
 
 	/**
 	 * 删除
-	 *
-	 * @time 11点06分
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
 	@ResponseBody

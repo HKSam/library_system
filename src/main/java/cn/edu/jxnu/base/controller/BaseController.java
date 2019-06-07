@@ -21,10 +21,6 @@ import cn.edu.jxnu.base.common.DateEditor;
 
 /**
  * 主控制类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:12:23.
- * @version V1.0
  */
 public class BaseController {
 	private Logger log = LoggerFactory.getLogger(getClass());
@@ -41,10 +37,7 @@ public class BaseController {
 	 * 由InitBinder表示的方法，可以对WebDataBinder对象进行初始化。WebDataBinder是DataBinder的子类，
 	 * 用于完成由表单到JavaBean属性的绑定。 InitBinder方法不能有返回值，它必须名为void。
 	 * InitBinder方法的参数通常是WebDataBinder，@InitBinder可以对WebDataBinder进行初始化。
-	 * 
-	 * @time 2018年4月10日 下午5:12:31.</br>
-	 * @version V1.0</br>
-	 * @param webDataBinder</br>
+	 *
 	 */
 	@InitBinder
 	protected void initBinder(WebDataBinder webDataBinder) {

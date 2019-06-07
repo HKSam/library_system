@@ -4,12 +4,7 @@ import org.springframework.stereotype.Controller;
 
 import cn.edu.jxnu.base.controller.BaseController;
 
-/**
- * 主页控制类
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:32:54.
- * @version V1.0
- */
+
 @Controller
 public class IndexController extends BaseController {
 /*

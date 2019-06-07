@@ -22,13 +22,7 @@ import cn.edu.jxnu.base.entity.User;
 import cn.edu.jxnu.base.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * 自定义的Shiro Realm
- * 
- * @author 梦境迷离
- * @time 2018年4月10日
- * @version V1.0
- */
+
 @Component
 @Slf4j
 public class MyRealm extends AuthorizingRealm {
@@ -36,13 +30,7 @@ public class MyRealm extends AuthorizingRealm {
 	@Autowired
 	private IUserService userService;
 
-	/**
-	 * 构造方法，传入一个缓冲管理器，用于给初始化密码次数限制功能使用
-	 * 
-	 * @time 2018年4月10日 下午5:06:26.
-	 * @version V1.0
-	 * @param cacheManager
-	 */
+
 	public MyRealm() {
 		setAuthenticationTokenClass(UsernamePasswordToken.class);
 		log.info("生成passwordRetryCache");
@@ -52,12 +40,7 @@ public class MyRealm extends AuthorizingRealm {
 
 	/**
 	 * 根据用户名来添加相应的权限和角色
-	 * 
-	 * @time 2018年4月10日 下午5:07:03.
-	 * 
-	 * @version V1.0
-	 * @param principals
-	 * @return 授权用户信息 AuthorizationInfo
+
 	 */
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
@@ -91,12 +74,7 @@ public class MyRealm extends AuthorizingRealm {
 
 	/**
 	 * 密码验证,验证账号不存在或已被注销
-	 * 
-	 * @time 2018年4月10日 下午5:07:11.
-	 * @version V1.0
-	 * @param token
-	 * @return 验证用户信息 AuthenticationInfo
-	 * @throws AuthenticationException
+
 	 */
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
@@ -123,10 +101,7 @@ public class MyRealm extends AuthorizingRealm {
 
 	/**
 	 * 添加自动刷新授权缓存
-	 * 
-	 * @author 梦境迷离.
-	 * @time 上午9:31:29
-	 * @version V1.0
+
 	 *
 	 */
 	public void clearCachedAuthorization(Integer id) {

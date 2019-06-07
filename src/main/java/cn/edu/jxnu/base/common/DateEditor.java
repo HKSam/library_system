@@ -10,10 +10,7 @@ import org.apache.commons.lang3.time.DateUtils;
 /**
  * 通过继承JDK 中的 java.beans.PropertyEditorSupport 类来实现自己的编辑器类 ，该类用于实现将String
  * 类型转换成自己需要的数据类型
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:42:25.
- * @version V1.0
+
  */
 public class DateEditor extends PropertyEditorSupport {
 
@@ -33,11 +30,7 @@ public class DateEditor extends PropertyEditorSupport {
 
 	/**
 	 * 构造方法
-	 * 
-	 * @time 2018年4月10日 下午4:49:30.</br>
-	 * @version V1.0</br>
-	 * @param emptyAsNull</br>
-	 * @throws </br>
+
 	 */
 	public DateEditor(boolean emptyAsNull) {
 		this.emptyAsNull = emptyAsNull;
@@ -50,11 +43,7 @@ public class DateEditor extends PropertyEditorSupport {
 
 	/**
 	 * 获得格式化的日期字符串
-	 * 
-	 * @time 2018年4月10日 下午4:49:57.</br>
-	 * @version V1.0</br>
-	 * @return</br>
-	 * @throws </br>
+
 	 */
 	public String getAsText() {
 		Date date = (Date) getValue();
@@ -63,11 +52,7 @@ public class DateEditor extends PropertyEditorSupport {
 
 	/**
 	 * 获得格式化的日期
-	 * 
-	 * @time 2018年4月10日 下午4:51:27.</br>
-	 * @version V1.0</br>
-	 * @param text</br>
-	 * @throws </br>
+
 	 */
 	public void setAsText(String text) {
 		if (text == null) {

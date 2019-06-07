@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.edu.jxnu.base.config.ds.DataSourceConfig",
+      "name": "spring.datasource.cluster",
+      "sourceMethod": "secondaryDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "cn.edu.jxnu.base.config.ds.DataSourceConfig",
+      "name": "spring.datasource.master",
+      "sourceMethod": "primaryDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

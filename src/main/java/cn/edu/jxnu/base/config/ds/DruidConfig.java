@@ -21,19 +21,13 @@ import com.alibaba.druid.support.spring.stat.DruidStatInterceptor;
  * 2、ThreadLocal存数据源
  * 3、构建数据源并初始化
  * 4、AOP拦截注解+注解标记方法
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:59:48.
- * @version V1.0
+
  */
 @Configuration
 public class DruidConfig {
 	/**
 	 * 也可以通过继承StatViewServlet 使用@WebFilter实现
-	 * 
-	 * @time 2018年4月10日 下午4:59:57.
-	 * @version V1.0
-	 * @return ServletRegistrationBean
+
 	 */
 	@Bean
 	public ServletRegistrationBean statViewServle() {
@@ -54,10 +48,7 @@ public class DruidConfig {
 
 	/**
 	 * 不拦截的
-	 * 
-	 * @time 2018年4月10日 下午5:00:08.
-	 * @version V1.0
-	 * @return FilterRegistrationBean
+
 	 */
 	@Bean
 	public FilterRegistrationBean statFilter() {
@@ -69,10 +60,7 @@ public class DruidConfig {
 
 	/**
 	 * 配置Spring监控
-	 * 
-	 * @time 2018年4月10日 下午5:00:18.
-	 * @version V1.0
-	 * @return DruidStatInterceptor
+
 	 */
 	@Bean(name = "druid-stat-interceptor") // 取名字是为了下面使用
 	public DruidStatInterceptor getDruidStatInterceptor() {
@@ -83,10 +71,7 @@ public class DruidConfig {
 
 	/**
 	 * 必须使用Qualifier 否则注入失败
-	 * 
-	 * @time 2018年4月10日 下午5:00:31.
-	 * @version V1.0
-	 * @return BeanNameAutoProxyCreator
+	 *
 	 */
 	@Bean
 	@Qualifier("druid-stat-interceptor") // 注入上面的bean

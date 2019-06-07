@@ -2,10 +2,7 @@ package cn.edu.jxnu.base.common;
 
 /**
  * 常量【当前用户】
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:41:58.
- * @version V1.0
+
  */
 public interface Constats {
 

@@ -7,10 +7,7 @@ import cn.edu.jxnu.base.entity.ZtreeView;
 
 /**
  * 资源服务接口
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:50:38.
- * @version V1.0
+ *
  */
 public interface IResourceService extends IBaseService<Resource, Integer> {
 
@@ -31,12 +28,6 @@ public interface IResourceService extends IBaseService<Resource, Integer> {
 
 	/**
 	 * 根据id查询资源
-	 * 
-	 * @author 梦境迷离
-	 * @time 上午9:51:26
-	 * @version V1.0
-	 * @param integer
-	 * @return Resource
 	 *
 	 */
 	Resource find(Integer integer);

@@ -10,10 +10,7 @@ import cn.edu.jxnu.base.entity.BaseEntity;
 
 /**
  * Dao层数据全部使用Spring Data JPA
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:33:27.
- * @version V1.0
+
  */
 @NoRepositoryBean
 /**

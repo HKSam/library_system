@@ -10,10 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 
  * 主启动类
- * 
- * @author 梦境迷离.
- * @version V1.0
- * @time 2018年3月19日10:46:46.
  */
 @SpringBootApplication
 @EnableCaching
@@ -23,9 +19,6 @@ public class Application {
 
 	/**
 	 * 主方法
-	 * 
-	 * @author 梦境迷离
-	 * @time 2018年4月10日.
 	 */
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);

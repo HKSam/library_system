@@ -4,10 +4,6 @@ import lombok.Data;
 
 /**
  * 操作符实体类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:59:15.
- * @version V1.0
  */
 
 @Data

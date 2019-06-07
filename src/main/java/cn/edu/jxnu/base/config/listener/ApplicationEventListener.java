@@ -14,20 +14,13 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 应用监听器
- * 
- * @author 梦境迷离 
- * @time 2018年4月10日 下午5:05:24
- * @version V1.0
+
  */
 @Slf4j
 public class ApplicationEventListener implements ApplicationListener<ApplicationEvent> {
 
 	/**
 	 * 应用程序启动过程监听
-	 * 
-	 * @time 2018年4月10日 下午5:05:33
-	 * @version V1.0
-	 * @param event
 	 */
 	@Override
 	public void onApplicationEvent(ApplicationEvent event) {

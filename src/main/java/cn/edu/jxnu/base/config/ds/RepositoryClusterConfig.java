@@ -18,10 +18,7 @@ import java.util.Map;
 
 /**
  * 从数据源配置
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:00:53.
- * @version V1.0
+
  */
 @Configuration
 @EnableTransactionManagement
@@ -43,11 +40,7 @@ public class RepositoryClusterConfig {
 
 	/**
 	 * 实体管理器
-	 * 
-	 * @time	2018年4月10日 下午5:01:25.
-	 * @version	V1.0
-	 * @param	builder
-	 * @return	EntityManager
+
 	 */
 	@Bean(name = "entityManagerCluster")
 	public EntityManager entityManager(EntityManagerFactoryBuilder builder) {
@@ -56,11 +49,7 @@ public class RepositoryClusterConfig {
 
 	/**
 	 * 实体管理器工厂
-	 * 
-	 * @time 2018年4月10日 下午5:01:57.
-	 * @version V1.0
-	 * @param builder
-	 * @return LocalContainerEntityManagerFactoryBean
+
 	 */
 	@Bean(name = "entityManagerFactoryCluster")
 	public LocalContainerEntityManagerFactoryBean entityManagerFactorySecondary(EntityManagerFactoryBuilder builder) {
@@ -74,11 +63,7 @@ public class RepositoryClusterConfig {
 
 	/**
 	 * 事务管理器
-	 * 
-	 * @time 2018年4月10日 下午5:02:24.
-	 * @version V1.0
-	 * @param builder
-	 * @return PlatformTransactionManager
+	 *
 	 */
 	@Bean(name = "transactionManagerCluster")
 	PlatformTransactionManager transactionManagerSecondary(EntityManagerFactoryBuilder builder) {

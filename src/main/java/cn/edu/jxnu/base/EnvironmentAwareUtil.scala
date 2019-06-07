@@ -8,11 +8,6 @@ import scala.Unit
 
 /**
  * 获得环境变量
- *
- * @author 梦境迷离
- * @time 2018年5月16日
- * @version V2.0
- *
  */
 @Configuration
 class EnvironmentAwareUtil extends EnvironmentAware {

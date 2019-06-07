@@ -34,10 +34,7 @@ import cn.edu.jxnu.base.service.specification.SpecificationOperator.Operator;
 
 /**
  * 图书管理控制类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:28:05.
- * @version V1.0
+
  */
 @Controller
 @RequestMapping("/web/books")
@@ -78,17 +75,6 @@ public class BookController extends BaseController {
 	/**
 	 * 删除图书
 	 * 
-	 * 考虑书已经被借出去了，不能再删除
-	 * 
-	 * @time 2018年4月10日 下午5:28:38.
-	 * 
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @param uCode
-	 *            操作人
-	 * @return JsonResult
-	 * 
 	 */
 	@RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
 	@ResponseBody
@@ -120,14 +106,7 @@ public class BookController extends BaseController {
 
 	/**
 	 * 借书
-	 * 
-	 * @time 2018年4月10日 下午5:29:10.
-	 * 
-	 * @version V1.0
-	 * @param borrowlist
-	 *            Json类型的借书表，数据集
-	 * @param map
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = { "/borrowlist/{borrowlist}" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -196,14 +175,6 @@ public class BookController extends BaseController {
 
 	/**
 	 * 还书表
-	 * 
-	 * @time 2018年4月10日 下午5:29:44.
-	 * 
-	 * @version V1.0
-	 * @param id
-	 *            借书用户id
-	 * @param map
-	 * @return String
 	 */
 	@RequestMapping(value = { "/returnBookList/{id}" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -226,14 +197,7 @@ public class BookController extends BaseController {
 
 	/**
 	 * 管理员归还图书
-	 * 
-	 * @time 2018年4月10日 下午5:30:39.
-	 * 
-	 * @version V1.0
-	 * @param borrowlist
-	 *            Json类型的借书表
-	 * @return JsonResult
-	 * @throws Exception
+
 	 */
 	@RequestMapping(value = { "/returnBook/{borrowlist}" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -263,7 +227,6 @@ public class BookController extends BaseController {
 			}
 
 			borrowBookService.deletByUserIdAndBookId(borrowBook[i].getUserId(), borrowBook[i].getBookId());
-			;
 			i++;
 		}
 		i = 0;
@@ -272,13 +235,7 @@ public class BookController extends BaseController {
 
 	/**
 	 * 无授权的归还一本图书
-	 * 
-	 * @time 2018年4月10日 下午5:30:59.
-	 * 
-	 * @version V1.0
-	 * @param jsonDate
-	 *            Json类型的借书表
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = { "/returnOneBook/{jsonDate}" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -317,11 +274,7 @@ public class BookController extends BaseController {
 
 	/**
 	 * 修改图书响应请求
-	 * 
-	 * @time 2018年4月10日 下午5:31:18.
-	 * 
-	 * @version V1.0
-	 * @param id
+
 	 *            修改的图书id
 	 * @param map
 	 * @return String addform页面

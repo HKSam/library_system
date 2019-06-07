@@ -10,17 +10,12 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * AES加密
  * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:41:17.
- * @version V1.0
+
  */
 public class AESUtils {
 
 	/**
-	 * 默认构造
-	 * 
-	 * @time 2018年4月10日 下午4:41:30.
-	 * @version V1.0
+
 	 */
 	private AESUtils() {
 	}

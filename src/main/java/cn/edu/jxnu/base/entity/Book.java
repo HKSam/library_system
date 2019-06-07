@@ -10,10 +10,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * 图书表
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:39:18.
- * @version V1.0
+
  */
 @Entity
 @Table(name = "tb_books")

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="base:war" />
+      <artifact name="base:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fc7015d7-7587-4dcd-aa3e-589f4cb1905c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/base_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
@@ -109,17 +116,100 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/xmind图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/个人信息.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/密码限制.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/操作记录.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/更新.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/查询.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/用户管理.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/登录注册.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/EnvironmentAwareUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/EnvironmentAwareUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/MyEnvironmentAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/MyEnvironmentAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/aop/WebLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/aop/WebLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/AESUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/AESUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/Constats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/Constats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/DateEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/DateEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MemorandumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MemorandumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/UUIDUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/FreeMarkerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/FreeMarkerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryClusterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryClusterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryMasterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryMasterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/intercepter/CommonIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/intercepter/CommonIntercepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/ApplicationEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/ApplicationEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/RedisGetDataListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/RedisGetDataListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/RetryLimitHashedCredentialsMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/RetryLimitHashedCredentialsMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/Vcodecontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBorrowBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBorrowBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IMemorandumDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IMemorandumDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IResourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/BorrowBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/BorrowBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/BorrowList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/BorrowList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Memorandum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Memorandum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/ZtreeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/ZtreeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/exception/NotFoundExceptionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/exception/NotFoundExceptionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/scheduler/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/scheduler/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBorrowBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBorrowBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IMemorandumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IMemorandumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BorrowBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BorrowBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/MemorandumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/MemorandumServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/ResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/ResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SimpleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SimpleSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SimpleSpecificationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SimpleSpecificationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SpecificationOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SpecificationOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/Captcha.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/Encoder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/GifCaptcha.java" beforeDir="false" />
@@ -130,7 +220,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/SpecCaptcha.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/手动用这个-自动用data和schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/login-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/login-background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/redis/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/redis/test/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/service/test/MemorandumServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/service/test/MemorandumServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,60 +243,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/LoginController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-935">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/java/net/DualStackPlainSocketImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="1525">
+              <caret line="81" column="38" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/info.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="3975">
+              <caret line="159" column="45" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="116" column="103" selection-start-column="2" selection-end-line="174" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2813">
-              <caret line="146" column="49" selection-start-line="146" selection-start-column="49" selection-end-line="146" selection-end-column="49" />
-              <folding>
-                <element signature="e#3184#3185#0" expanded="true" />
-                <element signature="e#3240#3241#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+            <state relative-caret-position="3050">
+              <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -206,52 +282,146 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/welcome.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1875">
-              <folding>
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="7750">
+              <caret line="310" column="50" selection-start-line="310" selection-start-column="40" selection-end-line="310" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/role/index.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1200" />
+            <state relative-caret-position="3250">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/borrow.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6400">
+              <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>free</find>
+      <find>ctx</find>
+      <find>asse</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBorrowBookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IMemorandumDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IResourceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.scala" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.scala" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/FreeMarkerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/RetryLimitHashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/intercepter/CommonIntercepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryClusterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/UUIDUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MemorandumUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/JsonResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/DateEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/Constats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/AESUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/aop/WebLogAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/ApplicationEventListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/RedisGetDataListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryMasterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login.ftl" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/redis/test/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/service/test/MemorandumServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="785" />
-    <option name="y" value="67" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,21 +439,6 @@
             <path>
               <item name="base" type="b2602c69:ProjectViewProjectNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,53 +461,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="base" type="b2602c69:ProjectViewProjectNode" />
@@ -381,17 +489,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="base" type="b2602c69:ProjectViewProjectNode" />
@@ -402,72 +500,12 @@
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="specification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="role" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,9 +519,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/assets/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41442224" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DZKD_B705\Desktop\SpringBoot-Base-System\base\src\main\resources\static\assets\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -529,16 +575,24 @@
       <updated>1559357910266</updated>
       <workItem from="1559357912575" duration="1778000" />
       <workItem from="1559361695767" duration="2282000" />
+      <workItem from="1559384151742" duration="17231000" />
+      <workItem from="1559463608879" duration="770000" />
+      <workItem from="1559524771476" duration="5769000" />
+      <workItem from="1559630415248" duration="12422000" />
+      <workItem from="1559706317714" duration="219000" />
+      <workItem from="1559742307392" duration="1096000" />
+      <workItem from="1559803453233" duration="2702000" />
+      <workItem from="1559921045776" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4060000" />
+    <option name="totallyTimeSpent" value="44888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -548,13 +602,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4251627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
@@ -564,7 +618,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16044776" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -577,336 +631,409 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/手动用这个-自动用data和schema.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/FreeMarkerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/aop/WebLogAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/AESUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/DateEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/cache/annotation/ProxyCachingConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="124" column="31" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.13.RELEASE/spring-tx-4.3.13.RELEASE.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="39" column="6" selection-end-line="314" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1865#1866#0" expanded="true" />
-            <element signature="e#2124#2130#0" expanded="true" />
-            <element signature="e#2622#2623#0" expanded="true" />
-            <element signature="e#2653#2654#0" expanded="true" />
-            <element signature="e#5208#5217#0" expanded="true" />
-            <element signature="e#7555#7556#0" expanded="true" />
-            <element signature="e#7573#7574#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/UserController.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/books/addform.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="144" column="34" selection-end-line="199" />
+        <state relative-caret-position="925">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/scheduler/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="31" column="11" selection-end-line="197" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1817#1823#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/exception/NotFoundExceptionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="72" column="103" selection-start-column="2" selection-end-line="115" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="32" column="8" selection-start-column="2" selection-end-line="98" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="31" column="11" selection-end-line="158" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1955#1965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="28" column="8" selection-start-column="2" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/MemorandumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="32" column="11" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1592#1604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/EnvironmentAwareUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/MyEnvironmentAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1113#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/MyRealm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="1150">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/JsonResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5846#5858#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="25">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryClusterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/intercepter/CommonIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/shiro/RetryLimitHashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/redis/test/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/jxnu/base/service/test/MemorandumServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/Constats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/DateEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/ApplicationEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="25">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/listener/RedisGetDataListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MemorandumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/common/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/config/ds/RepositoryMasterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/ResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBorrowBookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#61#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/ui/ModelMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/dao/IBookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/MemorandumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/ResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/specification/SimpleSpecificationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IBorrowBookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/service/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="2200">
+          <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/net/DualStackPlainSocketImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="250">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/GifCodeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="1525">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/GifCaptcha.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/info.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="3975">
+          <caret line="159" column="45" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/GifEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2129">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/Captcha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/Randoms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/vcode/SpecCaptcha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/system/Vcodecontroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2813">
-          <caret line="146" column="49" selection-start-line="146" selection-start-column="49" selection-end-line="146" selection-end-column="49" />
-          <folding>
-            <element signature="e#3184#3185#0" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3050">
+          <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/welcome.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1875">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="7750">
+          <caret line="310" column="50" selection-start-line="310" selection-start-column="40" selection-end-line="310" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/role/index.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/web/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        <state relative-caret-position="3250">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/AdminIndexController.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/borrow.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="116" column="103" selection-start-column="2" selection-end-line="174" selection-end-column="3" />
+        <state relative-caret-position="6400">
+          <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/redis/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/base/controller/admin/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="-125">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>base:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41442224" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41442224" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>base</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41442224" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -914,6 +1041,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41442224" />
               </list>
             </option>
           </splitter-proportions>

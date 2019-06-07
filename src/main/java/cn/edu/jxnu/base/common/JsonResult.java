@@ -6,10 +6,7 @@ import lombok.Data;
 
 /**
  * Json 统一返回消息类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:51:45.
- * @version V1.0
+ *
  */
 @Data
 public class JsonResult implements Serializable {
@@ -42,12 +39,6 @@ public class JsonResult implements Serializable {
 
 	/**
 	 * 默认构造
-	 * 
-	 * @time 2018年4月10日 下午4:54:20.</br>
-	 * @version V1.0</br>
-	 * @param code
-	 * @param message
-	 * @param data</br>
 	 */
 	private JsonResult(int code, String message, Object data) {
 		this.code = code;
@@ -68,10 +59,7 @@ public class JsonResult implements Serializable {
 
 	/**
 	 * 处理成功
-	 * 
-	 * @param message
-	 *            消息
-	 * @return data
+
 	 */
 	public static final JsonResult success() {
 		return new JsonResult(CODE_SUCCESS, "操作成功", NOOP);
@@ -127,10 +115,7 @@ public class JsonResult implements Serializable {
 
 	/**
 	 * 测试用
-	 * 
-	 * @time 2018年4月10日 下午4:55:06.</br>
-	 * @version V1.0</br>
-	 * @return String</br>
+	 *
 	 */
 	@Override
 	public String toString() {

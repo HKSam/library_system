@@ -13,10 +13,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 定时任务 改
- * 
- * @author 梦境迷离.
- * @time 2018年6月11日
- * @version V1.0
  *
  */
 @Component
@@ -32,10 +28,6 @@ public class Scheduler {
 
 	/**
 	 * ehcache的缓存过期无效，使用定时任务替代。
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午2:05:52
-	 * @version V1.0
 	 *
 	 */
 	@Scheduled(fixedRate = 60000) // 完成之后的每分钟执行一次,即存在误差1分钟，可以控制fixedRate
@@ -72,10 +64,6 @@ public class Scheduler {
 
 	/**
 	 * 防止内存溢出
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午1:50:22
-	 * @version V1.0
 	 *
 	 */
 	@Scheduled(fixedDelay = 36000000) // 完成后的每600分钟执行一次,清空

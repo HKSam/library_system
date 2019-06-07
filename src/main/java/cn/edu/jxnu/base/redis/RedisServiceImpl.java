@@ -13,11 +13,7 @@ import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author 梦境迷离
- * @version V1.0
- * @time 2018年4月10日
- */
+
 @Service
 @Slf4j
 public class RedisServiceImpl implements RedisService {
@@ -30,14 +26,7 @@ public class RedisServiceImpl implements RedisService {
 
 	/**
 	 * 添加map
-	 * 
-	 * @time 下午10:10:22
-	 * 
-	 * @version V1.0
-	 * @param key
-	 * @param map
-	 * @return
-	 * @throws Exception
+
 	 */
 	public boolean putMap(String key, Map<Integer, List<String>> map) throws Exception {
 
@@ -53,13 +42,7 @@ public class RedisServiceImpl implements RedisService {
 
 	/**
 	 * 查询哈希表 hKey 中给定域 hashKey 的值.
-	 * 
-	 * @tim 下午9:56:00
-	 * 
-	 * @version V1.0
-	 * @param hKey
-	 * @param hashKey
-	 * @return 给定K的V
+
 	 */
 	@Override
 	public List<String> hashGet(String hKey, Integer hashKey) {
@@ -70,13 +53,6 @@ public class RedisServiceImpl implements RedisService {
 
 	/**
 	 * 获取所有的KV散列值
-	 * 
-	 * @time 下午9:47:06
-	 * 
-	 * @version V1.0
-	 * @param key
-	 * @return map集合
-	 * @throws Exception
 	 */
 	@Override
 	public Map<Integer, List<String>> hashGetAll(String key) throws Exception {
@@ -91,16 +67,7 @@ public class RedisServiceImpl implements RedisService {
 		return map;
 	}
 
-	/**
-	 * 添加键值对到哈希表key中
-	 * 
-	 * @time 下午9:50:04
-	 * 
-	 * @version V1.0
-	 * @param key
-	 * @param hashKey
-	 * @param value
-	 */
+
 	@Override
 	public void hashPushHashMap(String key, Integer hashKey, List<String> value) {
 
@@ -110,12 +77,7 @@ public class RedisServiceImpl implements RedisService {
 
 	/**
 	 * 获取哈希表key中的所有域
-	 *
-	 * @time 下午9:50:41
-	 * 
-	 * @version V1.0
-	 * @param key
-	 * @return map的key set集合
+
 	 */
 	@Override
 	public Set<Object> hashGetAllHashKey(String key) {
@@ -124,10 +86,6 @@ public class RedisServiceImpl implements RedisService {
 
 	/**
 	 * 删除一个或多个哈希字段
-	 * 
-	 * @time 下午10:07:08
-	 * 
-	 * @version V1.0
 	 * @param key
 	 * @param hashKeys
 	 * @return 成功删除的个数

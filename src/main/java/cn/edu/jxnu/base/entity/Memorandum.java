@@ -18,10 +18,6 @@ import lombok.ToString;
  * 系统操作备忘录
  * 
  * 记录信息
- * 
- * @author: 梦境迷离
- * @version 1.0
- * @time 2018年5月1日
  */
 
 @Entity

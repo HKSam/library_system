@@ -22,10 +22,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * aop日志切面 使用@Around在切入点前后切入内容，并自己控制何时执行切入点自身的内容
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:39:48.
- * @version V1.0
  */
 @Aspect
 @Component
@@ -37,9 +33,6 @@ public class WebLogAspect {
 	/**
 	 * 使用@Pointcut定义一个切入点，可以是一个规则表达式，比如下例中某个package下的所有函数，也可以是一个注解等。
 	 * public表示访问权限是公有方法，第一个*表示返回类型，第二 *表示类名，第三个*表示方法(..)表示任何参数，包含子包
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午4:38:12.
 	 */
 	@Pointcut("execution(public * cn.edu.jxnu.base.controller.web..*.*(..))")
 	public void webLog() {
@@ -47,9 +40,7 @@ public class WebLogAspect {
 
 	/**
 	 * 定义授权修改使用的切点
-	 * 
-	 * @author 梦境迷离.
-	 * @time 上午9:34:44
+
 	 *
 	 */
 	@Pointcut("execution(public * cn.edu.jxnu.base.controller.admin.system.UserController.grantRole(..))")
@@ -75,10 +66,7 @@ public class WebLogAspect {
 
 	/**
 	 * 授权修改之后调用
-	 * 
-	 * @author 梦境迷离.
-	 * @time 上午9:32:02
-	 * @version V1.0
+
 	 *
 	 */
 	@After(value = "shiroAop()")
@@ -93,9 +81,6 @@ public class WebLogAspect {
 	/**
 	 * 使用@Before在切入点开始处切入内容</br>
 	 * i的值越小，优先级越高。在切入点前的操作，按order的值由小到大执行,在切入点后的操作，按order的值由大到小执行
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午4:37:41.
 	 */
 	@Order(5)
 	@Before("webLog()")
@@ -116,9 +101,6 @@ public class WebLogAspect {
 
 	/**
 	 * 使用@AfterReturning在切入点return内容之后切入内容（可以用来对处理返回值做一些加工处理）
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午4:37:25.
 	 */
 	@AfterReturning(returning = "ret", pointcut = "webLog()")
 	public void doAfterReturning(Object ret) throws Throwable {
@@ -129,9 +111,6 @@ public class WebLogAspect {
 
 	/**
 	 * 使用@After在切入点结尾处切入内容
-	 * 
-	 * @author 梦境迷离
-	 * @time 下午4:37:17.
 	 */
 	@After(value = "webLog()")
 	public void doAfter(JoinPoint joinPoint) {

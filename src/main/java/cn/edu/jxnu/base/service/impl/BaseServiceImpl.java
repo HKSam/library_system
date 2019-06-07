@@ -17,10 +17,6 @@ import cn.edu.jxnu.base.service.IBaseService;
 
 /**
  * 系统基接口服务层实现
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:53:59.
- * @version V1.0
  */
 @Transactional
 public abstract class BaseServiceImpl<T extends BaseEntity, ID extends Serializable> implements IBaseService<T, ID> {

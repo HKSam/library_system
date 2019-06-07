@@ -18,12 +18,7 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * 主数据源配置
- * 
- * @author 梦境迷离
- * @version V1.0
- */
+
 @Configuration
 /**
  * 开启事务支持
@@ -62,12 +57,6 @@ public class RepositoryMasterConfig {
 
 	/**
 	 * 事务管理器
-	 * 
-	 * @time 2018年4月10日 下午5:03:14.</br>
-	 * @version V1.0</br>
-	 * @param builder
-	 * @return</br>
-	 * @throws </br>
 	 */
 	@Bean(name = "transactionManagerMaster")
 	@Primary

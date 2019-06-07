@@ -13,10 +13,6 @@ import java.util.List;
 
 /**
  * 查询封装类
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:57:01.
- * @version V1.0
  */
 public class SimpleSpecification<T> implements Specification<T> {
 
@@ -31,9 +27,6 @@ public class SimpleSpecification<T> implements Specification<T> {
 
 	/**
 	 * 重写toPredicate，构造查询条件
-	 * 
-	 * @time 2018年4月10日 下午5:57:11. </br>
-	 * @version V1.0</br>
 	 * @param root
 	 * @param criteriaQuery
 	 * @param criteriaBuilder

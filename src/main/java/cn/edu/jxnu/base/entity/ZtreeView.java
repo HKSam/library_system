@@ -7,10 +7,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * ztree树
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:42:40.
- * @version V1.0
+
  */
 @Data
 @EqualsAndHashCode(callSuper=false)
@@ -50,12 +47,7 @@ public class ZtreeView implements Serializable {
 		this.open = open;
 	}
 
-	/**
-	 * @author	梦境迷离
-	 * @time	上午9:10:20
-	 * @version V1.0
-	 *
-	 */
+
 	public ZtreeView() {
 	}
 

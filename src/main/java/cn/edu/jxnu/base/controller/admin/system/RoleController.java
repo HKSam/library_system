@@ -22,10 +22,6 @@ import cn.edu.jxnu.base.service.specification.SpecificationOperator.Operator;
 
 /**
  * 系统角色控制类
- *
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:21:54.
- * @version V1.0
  */
 @Controller
 @RequestMapping("/admin/role")
@@ -42,10 +38,6 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 打开角色管理首页页面
-	 *
-	 * @time 2018年4月10日 下午5:22:03.
-	 * @version V1.0
-	 * @return String
 	 */
 	@RequestMapping(value = { "/", "/index" })
 	public String index() {
@@ -54,10 +46,6 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 角色管理分页
-	 *
-	 * @time 2018年4月10日 下午5:22:15.
-	 * @version V1.0
-	 * @return Page 类型 Role
 	 */
 	@RequestMapping(value = { "/list" })
 	@ResponseBody
@@ -74,11 +62,6 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 打开添加角色页面
-	 *
-	 * @time 2018年4月10日 下午5:22:26.
-	 * @version V1.0
-	 * @param map
-	 * @return String
 	 */
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public String add(ModelMap map) {
@@ -92,12 +75,6 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 打开角色修改页面
-	 *
-	 * @time 2018年4月10日 下午5:22:38.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @retur String
 	 */
 	@RequestMapping(value = "/edit/{id}", method = RequestMethod.GET)
 	public String edit(@PathVariable Integer id, ModelMap map) {
@@ -109,14 +86,7 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 添加或修改角色
-	 *
-	 * @time 2018年4月10日 下午5:23:10.
-	 * @version V1.0
-	 * @param role
-	 * @param map
-	 * @param uCode
-	 *            操作人
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = { "/edit" }, method = RequestMethod.POST)
 	@ResponseBody
@@ -133,14 +103,7 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 删除角色
-	 *
-	 * @time 2018年4月10日 下午5:23:32.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @param uCode
-	 *            操作人
-	 * @return JsonResult
+
 	 */
 	@RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
 	@ResponseBody
@@ -158,12 +121,6 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 打开授权页面
-	 *
-	 * @time 2018年4月10日 下午5:23:40.
-	 * @version V1.0
-	 * @param id
-	 * @param map
-	 * @return String
 	 */
 	@RequestMapping(value = "/grant/{id}", method = RequestMethod.GET)
 	public String grant(@PathVariable Integer id, ModelMap map) {
@@ -174,13 +131,6 @@ public class RoleController extends BaseController {
 
 	/**
 	 * 授权
-	 *
-	 * @time 2018年4月10日 下午5:24:27.
-	 * @version V1.0
-	 * @param id
-	 * @param resourceIds
-	 * @param map
-	 * @return JsonResult
 	 */
 	@RequestMapping(value = "/grant/{id}", method = RequestMethod.POST)
 	@ResponseBody

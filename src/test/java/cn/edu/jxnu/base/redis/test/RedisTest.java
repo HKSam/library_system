@@ -14,14 +14,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import cn.edu.jxnu.base.Application;
 import cn.edu.jxnu.base.redis.RedisService;
 
-/**
- * Copyright © 2018 梦境迷离. All rights reserved.
- * 
- * @description:
- * @Package: cn.edu.jxnu.base.redis.test
- * @author: 梦境迷离
- * @date: 2018年4月11日 上午9:05:56
- */
+
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)

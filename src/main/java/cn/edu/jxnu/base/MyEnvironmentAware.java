@@ -7,10 +7,6 @@
 //
 ///**
 // * 获得环境变量
-// * 
-// * @author 梦境迷离
-// * @version V1.0
-// *
 // */
 //@Configuration
 //public class MyEnvironmentAware implements EnvironmentAware {

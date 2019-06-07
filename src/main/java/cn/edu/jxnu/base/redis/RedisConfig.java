@@ -22,10 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * redis配置类 注意：不要配置redis缓存
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午8:27:46
- * @version V1.0
+
  */
 @Configuration
 @EnableAutoConfiguration
@@ -35,11 +32,7 @@ public class RedisConfig {
 	public final static String LISTENER_PATTERN = "__keyevent@0__:expired";
 
 	/**
-	 * 
-	 * @author 梦境迷离
-	 * @time 上午11:39:01
-	 * @version V1.0
-	 * @return Jedis 连接工厂
+
 	 *
 	 */
 	@Bean
@@ -56,13 +49,6 @@ public class RedisConfig {
 	 * 该模板默认采用JdkSerializationRedisSerializer的二进制数据序列化方式，
 	 * 为了方便演示本示例采用Jackson2JsonRedisSerializer来序列化和反序列化redis的value值，
 	 * 使用StringRedisSerializer来序列化和反序列化redis的key值。
-	 * 
-	 * @time 2018年4月10日 下午8:43:32
-	 *       </p>
-	 * 
-	 * @version V1.0
-	 * @param factory
-	 * @return RedisTemplate
 	 */
 	@Bean
 	RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory factory) {

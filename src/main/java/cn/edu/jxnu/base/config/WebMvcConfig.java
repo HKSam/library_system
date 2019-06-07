@@ -23,10 +23,7 @@ import cn.edu.jxnu.base.config.intercepter.CommonIntercepter;
 
 /**
  * SpringBoot自定义的web配置
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午4:57:30.
- * @version V1.0
+
  */
 @SuppressWarnings("deprecation")
 @Configuration
@@ -36,11 +33,6 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 	/**
 	 * fastJson相关设置
-	 * 
-	 * @time 2018年4月10日 下午4:57:40.
-	 * 
-	 * @version V1.0
-	 * @return FastJsonConfig
 	 */
 	private FastJsonConfig getFastJsonConfig() {
 
@@ -60,11 +52,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 	/**
 	 * fastJson相关设置
-	 * 
-	 * @time 2018年4月10日 下午4:57:52.
-	 * 
-	 * @version V1.0
-	 * @return FastJsonHttpMessageConverter4
+
 	 */
 	private FastJsonHttpMessageConverter4 fastJsonHttpMessageConverter() {
 
@@ -81,10 +69,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	/**
 	 * 添加fastJsonHttpMessageConverter到converters
 	 * 
-	 * @time 2018年4月10日 下午4:58:02.
-	 * 
-	 * @version V1.0
-	 * @param converters
+
 	 *            消息转化器
 	 */
 	@Override
@@ -93,12 +78,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	}
 
 	/**
-	 * 添加拦截器
-	 * 
-	 * @time 2018年4月10日 下午4:58:10.
-	 * 
-	 * @version V1.0
-	 * @param registry
+
 	 *            拦截器注册
 	 */
 	@Override
@@ -111,11 +91,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	 * Spring
 	 * 提供了FilterRegistrationBean类，此类提供setOrder方法，可以为filter设置排序值，让spring在注册web
 	 * filter之前排序后再依次注册。
-	 * 
-	 * @time 2018年4月10日 下午4:58:19.
-	 * 
-	 * @version V1.0
-	 * @return FilterRegistrationBean
+
 	 */
 	@Bean
 	public FilterRegistrationBean registFilter() {

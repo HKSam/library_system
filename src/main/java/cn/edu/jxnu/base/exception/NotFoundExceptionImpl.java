@@ -10,10 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 全局异常
- * 
- * @author 梦境迷离
- * @time 2018年4月10日 下午5:48:53.
- * @version V1.0
  */
 @Controller
 public class NotFoundExceptionImpl implements ErrorController {
@@ -26,12 +22,6 @@ public class NotFoundExceptionImpl implements ErrorController {
 
 	/**
 	 * 404 500 处理
-	 * 
-	 * @time 2018年4月10日 下午5:49:08
-	 * @version V1.0
-	 * @param request
-	 * @param response
-	 * @return ModelAndView
 	 */
 	@RequestMapping(value = ERROR_PATH)
 	public ModelAndView errorHtml(HttpServletRequest request, HttpServletResponse response) {
